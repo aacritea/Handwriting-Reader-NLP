@@ -79,4 +79,3 @@ mlp2 = MLPClassifier(hidden_layer_sizes=(100,100,100,100,100,), max_iter=50, alp
 mlp2.fit(X_train, y_train)
 print("Training set score: %f" % mlp2.score(X_train, y_train))
 print("Test set score: %f" % mlp2.score(X_test, y_test))
-
